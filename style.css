@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.body {
+  background-color: #f4f4f4 !important;
+  font-family: "Roboto", sans-serif;
+}
+.body .section1 {
+  background-color: #ffff !important;
+}
+
+.testimonial .description {
+  padding: 15px 15px 15px 15px;
+  margin: 20px;
+  background: #ffff;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  height: 150px;
+}
+.testimonial .testimonial-content:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: #ffff;
+  position: absolute;
+  bottom: 130px;
+  right: 50%;
+  transform: rotateZ(-46deg);
+}
+.section2 {
+  background: #ffff !important;
+  height: 200px;
+}
+
+.section2 .row:after {
+  content: "";
+  width: 180px;
+  height: 180px;
+  border: 10px solid #6ab33e;
+  border-radius: 50%;
+  position: absolute;
+  left: 540px;
+  top: 400px;
+}
